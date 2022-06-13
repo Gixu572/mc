@@ -10,6 +10,7 @@ jobs:
     docker:
       - image: cimg/base:stable
       - image: maven:3.6.3-jdk-8-openj9
+      - image: circleci/jdk8:0.1.1
     # Add steps to the job
     # See: https://circleci.com/docs/2.0/configuration-reference/#steps
     steps:
