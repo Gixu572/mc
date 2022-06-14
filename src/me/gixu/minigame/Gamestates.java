@@ -1,4 +1,4 @@
-package me.potato.minigame;
+package me.gixu.minigame;
 
 public enum Gamestates {
     LOBBY,
